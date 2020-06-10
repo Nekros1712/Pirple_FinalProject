@@ -1,0 +1,173 @@
+.logon{
+  position: relative;
+  left:25%;
+}
+.logon img{
+  position: absolute;
+}
+.top{
+width:320px;
+height:520px; 	
+animation-name: fade;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}
+.bottom{
+	width:320px;
+height:520px;
+}
+@keyframes fade{
+0%{
+opacity:1;
+}
+25%{
+opacity:1;
+}
+75% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration:none;
+	font-family:'Roboto', sans-serif;
+}
+body{
+	background: #fafafa;
+	font-size:14px;
+}
+.header{
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	margin: 50px auto auto 700px ;
+}
+
+.topper,.signup{
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	border-radius: 1px;
+	padding:40px 40px 20px;
+}
+.logo img{
+	display:block;
+	margin: 0 auto 35px;
+}
+.inputfield{
+	margin-bottom:10px;
+}
+.input{
+	width:100%;
+	background:#fafafa;
+	border:1px solid #efefef;
+	font-size:12px;
+	border-radius:4px;
+	color: #262626;
+	padding: 10px;
+}
+.input:focus{
+	border: 1px solid #b2b2b2;
+}
+.loginbutton{
+	margin:10px;
+	border:1px solid #3897f0;
+	background: #3897f0;
+	border-radius:5px;
+	padding:5px;
+	text-align:center;
+}
+.loginbutton a{
+	color:white;
+	display:block;
+}
+.line{
+	width:105px;
+	height:2px;
+	background: #efefef;
+}
+.or{
+	display:flex;
+	height:15px 0 20px;
+	justify-content:space-between;
+	align-items:center;
+}
+.or p{
+	color:#999;
+	font-size:12px;
+}
+.fblogo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.fblogo img{
+	width:20px;
+	height:20px;
+	margin: 0 0 0 0;
+
+}
+
+.fblogo a{
+	color:#385185;
+	font-weight:bold;
+	margin-left:10px;
+	
+}
+.forgot{
+	font-size:12px;
+	text-align:center;
+	margin-top:20px;
+}
+.signup{
+	margin:10px 0 20px;
+	padding:25px 40px;
+	text-align: center;
+	color:#262626;
+}
+.signup a{
+	color:3897f0;
+	font-weight:bold;
+}
+.app{
+	text-align:center;
+	color:#262626;
+}
+.app p{
+margin-bottom:20px;
+}
+.app a img{
+	width:135px;
+	height:40px;
+	margin:0 6px;
+}
+.footer{
+	max-width:935px;
+	width:100%;
+	margin:0 auto;
+	padding:40px 0;
+	display:flex;
+	justify-content:space-between;
+}
+.flink ul li{
+	display:inline-block;
+	margin-right:9px;
+	margin-left:0;
+}
+.flink ul li a{
+	font-size:12px;
+	color: #003569;
+}
+.copy{
+	color:#999;
+	font-size:12px;
+	margin-right:0;
+}
